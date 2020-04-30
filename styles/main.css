@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.navbar .links-container:active {
+  background-color: white;
+}
+
 .links-container .navbar-link {
   display: table-cell;
   position: relative;
@@ -54,6 +58,10 @@ body {
 }
 
 .links-container .navbar-link:hover {
+  color: rgb(233,50,117);
+}
+
+.links-container .navbar-link:active {
   color: rgb(233,50,117);
 }
 
